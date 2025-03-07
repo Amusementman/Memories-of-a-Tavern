@@ -5,7 +5,7 @@ def Tavern ():
         if redo == "yes":
             Tavern()
         else:
-            print("That's alright, thank you for playing.")
+            print("Perhaps another time.")
     inventory = ["Dragon egg", "a pouch containing ten coins", "a healing potion", "a sword", "a badge", "your rations"]
     #possibly add more to this
     #maybe change from second peson to first?
@@ -48,7 +48,35 @@ def Tavern ():
             if third_choice == "Dragon egg":
                 print("No")
             elif third_choice == "five coins":
-                print("yay")
+                print("You take out your pouch, removing and handing five coins to the waiter. They nod a thanks before leaving to go attend another customer.")
+                print("You smile to yourself, as you take your drink in hand. You lift it to your lips and take a sip.")
+                print("It's sweet and cool, with a nice aroma and a soothing smoothness to it. It relaxes you in an instant.")
+                print("As you drink, you forget about the choas that reigns outside. All of the war, fighting and sacrifices seem to disspear with each sip.")
+                print("You're left with the faint memory of peace you once held.")
+                print("The days as you waited for your mother to return from her travels, you'd bake, read, draw and clean up around the house. Despite your evergrowing boredum, it was peaceful, it was nice.")
+                print("You never had to worry about never letting your guard down, nor your amount of rations, not even having to worry about who to trust.")
+                print("It was calm. You miss those times.")
+                print("A feeling of nostalgia fills you, you can't help but take off your bag to stare inside.")
+                print("You stare down at the dragon egg, 'will you ever get the chance to know peace?' you whisper to the dragon. A question, you've long knowed the answer to.")
+                print("Deep down you know the answer is no, the dragon won't live long enough to ever get a moment of peace. A weapon that won't live enough to surpass that title.")
+                print("You can't help but feel guilty, you are the one leading it to it's doomed destiny. Yet, you cannot falter. If you don't bring the dragon egg, if you don't sacrifice the dragon, you'll loose the war and thousands of lives.")
+                print("Yet, the guilt you try to push down remains. Filling your soul with doubt and regret.")
+                print("A thought fills your mind, 'is this the right choice?'")
+                print("You shake your head, there's no time to think about that now.")
+                print("You glance over at the empty glass in your hand before looking down at your bag, this time examining your rations.")
+                print("Perhaps some food will ease your concerns?")
+                fourth_choice = input("Should you order some food as well? ")
+                if fourth_choice == "yes":
+                    print("ah")
+                else:
+                    print("No, you shouldn't. You know better than to waste your limited rescources.")
+                    print("If you ever get hungry, you'll simply have some rations. And once those run out, you'll buy more.")
+                    print("You close your bag, securring it before throwing it back on your back.")
+                    print("You rise from your seat, nodding a thank you to your waiter before walking through the tavern towards the exit.")
+                    print("You push the front door open and head out into the snow. You take a step out, letting the door close behind.")
+                    print("You push any doubts, any simmering regrets of what you'll do down. You have a mission.")
+                    print("And you won't fail.")
+                    restart()
             elif third_choice == "a healing potion":
                 print("yummy")
             elif third_choice == "a sword":
